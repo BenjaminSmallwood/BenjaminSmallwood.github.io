@@ -39,21 +39,26 @@ h1 {
 }
 
 /* Orange Ball */
-.orange-ball-1, .orange-ball-2 {
+.orange-ball-1, .orange-ball-2, .orange-ball-3 {
     background: #EC7202;
     position: absolute;
-    width: 20em;
-    height: 20em;
+    width: 150px !important;
+    height: 150px;
     border-radius: 50%;
     z-index: 0;
 }
 
 .orange-ball-1 {
-    left: 10vw;
-    top: 20vh;
+    left: 50px;
+    top: 0;
 }
 
 .orange-ball-2 {
-    right: 10vw;
-    bottom: 30vh;
+    right: 50px;
+    bottom: 50%;
+}
+
+.orange-ball-3 {
+    left: 100px;
+    bottom: 0px;
 }
